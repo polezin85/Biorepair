@@ -1,0 +1,211 @@
+/* header-page__top start */
+.header-page__top {
+    background-color: #fff;
+    height: 82px;
+}
+
+.header-page-top__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 31px;
+}
+
+.header-page-top__end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-page-top__search-form_hidden {
+    display: none;
+}
+
+.header-page-top__search-icon-link {
+    outline: none;
+    text-decoration: none;
+    line-height: 0;
+    margin-left: 30px;
+}
+
+.header-page-top__btn {
+    background-blend-mode: multiply;
+    mix-blend-mode: normal;
+    padding: 10px 35px;
+    color: #fff;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.214;
+    cursor: pointer;
+    transition: background ease-out 0.5s;
+    outline: none;
+    margin-left: 30px;
+    width: 164px;
+}
+
+.header-page-top__btn_blue {
+    background: linear-gradient(100.29deg, #00417C 10.2%, #00417C 10.2%, #135490 30.19%, #37A0FF 60%, #1179D7 92.6%);
+}
+
+.header-page-top__btn_blue:hover {
+    background: linear-gradient(102.29deg, #00417C -7.16%, #00417C -7.16%, #135490 9.95%, #37A0FF 35.47%, #1179D7 63.01%);
+}
+
+.header-page-top__btn_blue:active {
+    background: linear-gradient(89.69deg, #00417C -32.25%, #00417C -32.25%, #135490 -2.06%, #37A0FF 42.95%, #1179D7 91.54%);
+}
+
+.header-page-top__btn_red {
+    background: linear-gradient(100.29deg, #9D2841 10.2%, #9E2942 10.2%, #B62E4B 30.19%, #EA5776 60%, #B01E3D 92.6%);
+}
+
+.header-page-top__btn_red:hover {
+    background: linear-gradient(100.65deg, #9D2841 -16.34%, #9E2942 -16.34%, #B62E4B 5.94%, #EA5776 39.15%, #B01E3D 75.47%);
+}
+
+.header-page-top__btn_red:active {
+    background: linear-gradient(89.91deg, #9D2841 -28.86%, #9E2942 -28.86%, #B62E4B 2.37%, #EA5776 48.93%, #B01E3D 99.84%);
+}
+/* header-page__top end */
+
+/* header-page__bottom start */
+.header-page__bottom {    
+    background: #00437a;
+    position: relative;
+}
+
+.header-page-bottom::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    background: #4880b8;
+    width: 40%;
+}
+
+.header-page-bottom__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header-page-bottom__ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-page-bottom__li:nth-child(2) {
+    background: #4376A9;
+}
+
+.header-page-bottom__li:nth-child(3) {
+    background: #396692;
+}
+
+.header-page-bottom__li:nth-child(4) {
+    background: #2A5B8B;
+}
+
+.header-page-bottom__link {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    font-family: Montserrat;;
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    padding: 20px 15px;
+}
+
+.header-page-bottom__end {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-page-bottom-end__item {
+    margin-left: 30px;
+}
+
+.header-page-bottom-end__item:nth-child(2),
+.header-page-bottom-end__item:nth-child(3) {
+    width: 164px;
+}
+
+.header-page-bottom__lk-link {
+    text-decoration: none;
+    outline: none;
+    line-height: 0;
+    display: block;
+}
+
+.header-page-bottom__lk-img {
+    width: 20px;
+    height: 20px;
+}
+
+.header-page-bottom__find-order-btn {
+    background-blend-mode: multiply;
+    mix-blend-mode: normal;
+    padding: 10px 22px;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.214;
+    cursor: pointer;
+    transition: background ease-out 0.5s;
+    outline: none;
+    width: 100%;
+    background: #4880b8;
+}
+
+.header-page-bottom__phone-link {
+    outline: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+/* header-page__bottom start */
+
+@media(max-width: 1200px) {
+
+}
+
+@media(max-width: 992px) {
+
+}
+
+@media(max-width: 767px) {
+
+}
+
+@media(max-width: 576px) {
+
+}
+
+@media(max-width: 1200px) {
+
+}
+
+@media(max-width: 992px) {
+
+}
+
+@media(max-width: 767px) {
+
+}
+
+@media(max-width: 576px) {
+
+}

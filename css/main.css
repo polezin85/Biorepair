@@ -36,14 +36,3 @@ body{
     line-height: 1.59;
     color: #022748;
 }
-
-.container {
-    width: 1060px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.btn {
-    border: none;
-    border-radius: 90px;
-}

@@ -76,7 +76,7 @@
     position: relative;
 }
 
-.header-page-bottom::before {
+.header-page__bottom::before {
     content: '';
     position: absolute;
     top: 0;
@@ -124,6 +124,7 @@
     font-size: 14px;
     display: block;
     padding: 20px 15px;
+    white-space: nowrap;
 }
 
 .header-page-bottom__end {    
